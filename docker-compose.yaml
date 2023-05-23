@@ -1,0 +1,14 @@
+version: "3"
+services:
+  mailer:
+    image: ghcr.io/poeschl/docker-mailer
+    environment:
+      SSMTP_SERVER: 
+      SSMTP_PORT: 587
+      SSMTP_TLS: TRUE
+      SSMTP_FROM:
+      SSMTP_TO:
+      SSMTP_USER:
+      SSMTP_PASS:
+      SSMTP_SUBJECT:
+      SSMTP_MESSAGE:

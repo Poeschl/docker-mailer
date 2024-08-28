@@ -52,3 +52,4 @@ notification-mail:
     SSMTP_SUBJECT: "Test"
     SSMTP_MESSAGE: "This is a Test"
 ```
+

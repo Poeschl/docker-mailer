@@ -1,8 +1,8 @@
-FROM alpine:3.18
+FROM alpine:3.22
 
 RUN apk add --no-cache \
-    coreutils=9.3-r2 \
-    ssmtp=2.64-r20
+    coreutils=9.7-r1 \
+    ssmtp=2.64-r22
 
 COPY entrypoint.sh /entrypoint.sh
 
